@@ -1,0 +1,10 @@
+{
+  "serve": {
+    "executor": "@nx/js:node",
+    "options": {
+      "buildTarget": "auth-service:build",
+      "inspect": 9234,
+      "port": 3334
+    }
+  }
+}

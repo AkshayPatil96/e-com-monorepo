@@ -1,0 +1,10 @@
+{
+  "serve": {
+    "executor": "@nx/js:node",
+    "options": {
+      "buildTarget": "api-gateway:build",
+      "inspect": 9233,
+      "port": 3333
+    }
+  }
+}
